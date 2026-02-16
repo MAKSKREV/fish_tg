@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enter code</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter the code</h2>
+        <p>We've sent a code to your phone. Please enter it below.</p>
+        <form method="post">
+            <input type="text" name="code" placeholder="Code" required><br><br>
+            <button type="submit">VERIFY</button>
+        </form>
+    </div>
+</body>
+</html>
